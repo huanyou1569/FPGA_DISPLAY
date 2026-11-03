@@ -1,0 +1,7 @@
+// Zynq-7000, Cortex-A9 CPU0, PYNQ-Z2; QSPI offset 0.
+the_ROM_image:
+{
+    [bootloader] fsbl.elf
+    vx_display_resetfix.bit
+    vx_brush_resetfix.elf
+}

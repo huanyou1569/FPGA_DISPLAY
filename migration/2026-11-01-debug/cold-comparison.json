@@ -1,0 +1,145 @@
+{
+  "cold_flash_header": {
+    "bytes": 4096,
+    "different_bytes": 0,
+    "first_mismatches": []
+  },
+  "cold_flash_app": {
+    "bytes": 4096,
+    "different_bytes": 0,
+    "first_mismatches": []
+  },
+  "cold_ddr1": {
+    "bytes": 4096,
+    "different_bytes": 907,
+    "first_mismatches": [
+      {
+        "offset": "0xc",
+        "expected": "0x23",
+        "actual": "0x33"
+      },
+      {
+        "offset": "0xd",
+        "expected": "0x0",
+        "actual": "0x80"
+      },
+      {
+        "offset": "0xe",
+        "expected": "0x0",
+        "actual": "0x80"
+      },
+      {
+        "offset": "0x14",
+        "expected": "0x0",
+        "actual": "0x10"
+      },
+      {
+        "offset": "0x1b",
+        "expected": "0xea",
+        "actual": "0xeb"
+      },
+      {
+        "offset": "0x1c",
+        "expected": "0x3",
+        "actual": "0x13"
+      },
+      {
+        "offset": "0x25",
+        "expected": "0xe",
+        "actual": "0x8e"
+      },
+      {
+        "offset": "0x28",
+        "expected": "0xf",
+        "actual": "0x8f"
+      },
+      {
+        "offset": "0x29",
+        "expected": "0x50",
+        "actual": "0xd0"
+      },
+      {
+        "offset": "0x2c",
+        "expected": "0x4",
+        "actual": "0x1c"
+      },
+      {
+        "offset": "0x2e",
+        "expected": "0x5e",
+        "actual": "0x5a"
+      },
+      {
+        "offset": "0x3c",
+        "expected": "0x4",
+        "actual": "0x14"
+      }
+    ]
+  },
+  "cold_ddr2": {
+    "bytes": 4096,
+    "different_bytes": 1299,
+    "first_mismatches": [
+      {
+        "offset": "0xd",
+        "expected": "0x0",
+        "actual": "0x80"
+      },
+      {
+        "offset": "0xe",
+        "expected": "0x0",
+        "actual": "0x80"
+      },
+      {
+        "offset": "0x10",
+        "expected": "0x1a",
+        "actual": "0x1b"
+      },
+      {
+        "offset": "0x13",
+        "expected": "0xea",
+        "actual": "0xfa"
+      },
+      {
+        "offset": "0x14",
+        "expected": "0x0",
+        "actual": "0x10"
+      },
+      {
+        "offset": "0x1b",
+        "expected": "0xea",
+        "actual": "0xeb"
+      },
+      {
+        "offset": "0x1c",
+        "expected": "0x3",
+        "actual": "0x13"
+      },
+      {
+        "offset": "0x20",
+        "expected": "0xf",
+        "actual": "0x4f"
+      },
+      {
+        "offset": "0x25",
+        "expected": "0xe",
+        "actual": "0x8e"
+      },
+      {
+        "offset": "0x26",
+        "expected": "0x0",
+        "actual": "0x2"
+      },
+      {
+        "offset": "0x28",
+        "expected": "0xf",
+        "actual": "0x8f"
+      },
+      {
+        "offset": "0x29",
+        "expected": "0x50",
+        "actual": "0xd0"
+      }
+    ]
+  },
+  "ddr_reads_identical": false
+}

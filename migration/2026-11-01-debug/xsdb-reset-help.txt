@@ -1,0 +1,116 @@
+NAME
+    rst - Target reset.
+
+SYNOPSIS
+    rst [options]
+        Reset the active target.
+
+OPTIONS
+    -processor
+        Reset the active processor target.
+
+    -cluster
+        Reset the active processor cluster.
+
+    -cores
+        Reset the active processor group. This reset type is supported only on
+        Zynq, Zynq UltraScale+ MPSoC, and Versal devices. A processor group is
+        defined as a set of processor cores and on-chip peripherals like OCM.
+
+    -dap
+        Reset Arm DAP. This reset type is supported only with targets that
+        represent Arm DAP. Examples of such targets are APU, RPU, PSU, and
+        Versal.
+
+    -system
+        Reset the active system. The is the default reset.
+
+    -srst
+        Generate system reset for active target. With JTAG, this is
+        done by generating a pulse on the SRST pin on the JTAG cable
+        associated with the active target.
+
+    -por
+        Generate power on reset for active target.  With JTAG, this is
+        done by generating a pulse on the POR pin on the JTAG cable
+        associated with the active target.
+
+    -ps
+        Generate PS only reset on Zynq UltraScale+ MPSoC. This is supported only
+        through MicroBlaze PMU target.
+
+    -stop
+        Suspend cores after reset. If this option is not specified, the debugger
+        choses the default action, which is to resume the cores for -system,
+        and suspend the cores for -processor, -cluster, and -cores. This option is only
+        supported with the -processor, -cluster, -cores, and -system options.
+
+    -start
+        Resume the cores after reset. See the description of the -stop option
+        for more details.
+
+    -split-mode
+        Set the CPU configuration to split mode.
+        This option is supported with APU, RPU and ARM cluster targets. If
+        this option is not specified, the current configuration is not changed.
+
+    -lockstep-mode
+        Set the CPU configuration to lockstep mode.
+        This option is supported with APU, RPU and ARM cluster targets. If
+        this option is not specified, the current configuration is not changed.
+
+    -endianness <value>
+        Set the data endianness to <value>. The following values are supported:
+        le - Little endian;
+        be - Big endian.
+        This option is supported with APU, RPU, ARM cluster and ARM core targets. If
+        this option is not specified, the current configuration is not changed.
+
+    -code-endianness <value>
+        Set the instruction endianness to <value>. The following values are
+        supported:
+        le - Little endian;
+        be - Big endian.
+        This option is supported with APU, RPU, ARM cluster and ARM core targets. If
+        this option is not specified, the current configuration is not changed.
+
+    -isa <isa-name>
+        Set ISA to <isa-name>. Supported isa-names are ARM/A32, A64, and Thumb.
+        This option is supported with APU, RPU, ARM cluster and ARM core targets. If
+        this option is not specified, the current configuration is not changed.
+
+    -clear-registers
+        Clear CPU registers after a reset is triggered. This option is useful
+        while triggering a reset after the device is powered up. Otherwise,
+        debugger can end up reading invalid system addresses based on the
+        register contents. Clearing the registers will avoid unpredictable
+        behavior.
+        This option is supported for ARM targets, when used with '-processor',
+        '-cluster' and '-cores'.
+
+    -type <reset type>
+        The following reset types are supported:
+        core, cluster, cpu, dap, system, por, pmc-por, pmc-srst, ps-por,
+        ps-srst, pl-por, and pl-srst.
+        pmc-por, pmc-srst, ps-por, ps-srst, pl-por, and pl-srst are supported
+        for Versal devices. Each of these reset types assert and deassert
+        corresponding bits in RST_PS register of CRP module.
+            pmc-por     : RST_PS[PMC_POR]
+            pmc-srst    : RST_PS[PMC_SRST]
+            ps-por      : RST_PS[PS_POR]
+            ps-srst     : RST_PS[PS_SRST]
+            pl-por      : RST_PS[PL_POR]
+            pl-srst     : RST_PS[PL_SRST]
+
+NOTE
+    For Versal devices, the default subsystem is activated through IPI channel5,
+    before triggering the processor reset. This is needed because PLM does not
+    activate the subsystem when PS ELFs are not part of the PDI. If the IPI
+    channel is not enabled in the Vivado design, the subsystem cannot be
+    activated. This causes runtime issues if PM API are used.
+
+RETURNS
+    Nothing, if reset is successful.
+    Error string, if reset is unsupported.
+
+

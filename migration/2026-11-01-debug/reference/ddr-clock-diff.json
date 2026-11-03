@@ -1,0 +1,137 @@
+[
+  {
+    "name": "PCW_UIPARAM_DDR_FREQ_MHZ",
+    "current": "512",
+    "preset": "525"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_T_RCD",
+    "current": "7",
+    "preset": "13.125"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_T_RP",
+    "current": "7",
+    "preset": "13.125"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_T_RC",
+    "current": "48.75",
+    "preset": "50.625"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0",
+    "current": "0.0",
+    "preset": "-0.051"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1",
+    "current": "0.0",
+    "preset": "-0.006"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2",
+    "current": "0.0",
+    "preset": "-0.009"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3",
+    "current": "0.0",
+    "preset": "-0.033"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_BOARD_DELAY0",
+    "current": "0.25",
+    "preset": "0.279"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_BOARD_DELAY1",
+    "current": "0.25",
+    "preset": "0.260"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_BOARD_DELAY2",
+    "current": "0.25",
+    "preset": "0.085"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_BOARD_DELAY3",
+    "current": "0.25",
+    "preset": "0.092"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_DQS_0_LENGTH_MM",
+    "current": "0",
+    "preset": "32.14"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_DQS_1_LENGTH_MM",
+    "current": "0",
+    "preset": "31.12"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_DQ_0_LENGTH_MM",
+    "current": "0",
+    "preset": "32.2"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_DQ_1_LENGTH_MM",
+    "current": "0",
+    "preset": "31.08"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_CLOCK_0_LENGTH_MM",
+    "current": "0",
+    "preset": "27.95"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_CLOCK_1_LENGTH_MM",
+    "current": "0",
+    "preset": "27.95"
+  },
+  {
+    "name": "PCW_PACKAGE_DDR_DQS_TO_CLK_DELAY_0",
+    "current": "-0.025",
+    "preset": "-0.051"
+  },
+  {
+    "name": "PCW_PACKAGE_DDR_DQS_TO_CLK_DELAY_1",
+    "current": "0.014",
+    "preset": "-0.006"
+  },
+  {
+    "name": "PCW_PACKAGE_DDR_BOARD_DELAY0",
+    "current": "0.089",
+    "preset": "0.279"
+  },
+  {
+    "name": "PCW_PACKAGE_DDR_BOARD_DELAY1",
+    "current": "0.075",
+    "preset": "0.260"
+  },
+  {
+    "name": "PCW_CRYSTAL_PERIPHERAL_FREQMHZ",
+    "current": "33.333333",
+    "preset": "50"
+  },
+  {
+    "name": "PCW_UIPARAM_ACT_DDR_FREQ_MHZ",
+    "current": "516.666687",
+    "preset": "525.000000"
+  },
+  {
+    "name": "PCW_DDRPLL_CTRL_FBDIV",
+    "current": "31",
+    "preset": "21"
+  },
+  {
+    "name": "PCW_DDR_DDR_PLL_FREQMHZ",
+    "current": "1033.333",
+    "preset": "1050.000"
+  },
+  {
+    "name": "PCW_UIPARAM_DDR_PARTNO",
+    "current": "MT41K256M16 RE-125",
+    "preset": "MT41J256M16 RE-125"
+  }
+]

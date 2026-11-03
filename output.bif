@@ -1,0 +1,6 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]F:\ZYNQ\test1\export\test1\sw\test1\boot\fsbl.elf
+	F:\ZYNQ\test\test.runs\impl_1\design_1_wrapper.bit
+}

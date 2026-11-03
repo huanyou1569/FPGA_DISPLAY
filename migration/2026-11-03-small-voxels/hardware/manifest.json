@@ -1,0 +1,74 @@
+{
+  "project_root": "C:\\Users\\1569\\Desktop\\test",
+  "bootgen": "D:\\APP\\2026.1\\Vitis\\bin\\bootgen.bat",
+  "architecture": "zynq",
+  "flash_offset": "0x00000000",
+  "target_rps": 15,
+  "slices_per_revolution": 120,
+  "slice_rate_hz": 1800,
+  "modes": [
+    "DEMO",
+    "BRUSH",
+    "SNAKE",
+    "TETRIS"
+  ],
+  "bridge_id": "0x56584234",
+  "render_canvas_voxels_per_axis": 1,
+  "render_pl_voxels_per_axis": "2..3 (8/3 scale)",
+  "xsa_sha256": "8f65256d0ebf516c5e3cabbb18a25375e8542ce3653f2e8e4e4df5d7338d96de",
+  "elf_entry_points": {
+    "fsbl.elf": "0x0",
+    "vx_brush_small.elf": "0x100000"
+  },
+  "files": {
+    "fsbl.elf": {
+      "bytes": 580912,
+      "sha256": "7747a127416e63bf8a015426a33c2ba2016dfe2308a7be7e343673e6e2aab14f"
+    },
+    "vx_display_small.bit": {
+      "bytes": 4045771,
+      "sha256": "9bc5cd13491e68a995467e822030faaf6ec2b7eaeacbcd418431127fa14c65d5"
+    },
+    "vx_brush_small.elf": {
+      "bytes": 380684,
+      "sha256": "4ef5231bb8ecaa34e0ca15f8ab6c69345db81cdb24997d295c6b45733bbc1140"
+    },
+    "BOOT.bin": {
+      "bytes": 4273712,
+      "sha256": "70011dff210114672cbc419277ec4b603d839181377da65fe7e8aeced14e2692"
+    }
+  },
+  "partitions": [
+    {
+      "offset": 5888,
+      "bytes": 128788,
+      "load": 0,
+      "entry": 0,
+      "attributes": 16
+    },
+    {
+      "offset": 134720,
+      "bytes": 4045568,
+      "load": 0,
+      "entry": 0,
+      "attributes": 32
+    },
+    {
+      "offset": 4180288,
+      "bytes": 76876,
+      "load": 1048576,
+      "entry": 1048576,
+      "attributes": 16
+    },
+    {
+      "offset": 4257216,
+      "bytes": 16496,
+      "load": 1130496,
+      "entry": 0,
+      "attributes": 16
+    }
+  ],
+  "header_checksums_and_elf_payloads": "PASS",
+  "hardware_programming": "NOT_PERFORMED",
+  "board_boot_test": "SKIPPED"
+}

@@ -1,0 +1,105 @@
+# Keep authored RTL, BD, XDC, XPR, C/H, Tcl/Python scripts, docs,
+# IP component.xml, simulation .wcfg and binary model assets in Git.
+
+# Vivado / MCP runtime and generated products
+.Xil/
+.vivado-ai/
+.ipcfg/
+/*.cache/
+/*.gen/
+/*.hw/
+/*.ip_user_files/
+/*.runs/
+/*.sim/
+# Keep .srcs/ and its .bd/.xci IP configuration files: they are project inputs.
+/*.srcs/**/ipshared/
+*.bda
+*.xpr.lock
+*.jou
+*.log
+*.str
+*.wdb
+*.pb
+*.rst
+*.rpt
+*.rpx
+*.vdi
+*.vds
+*.wdf
+*.backup.*
+*.bit
+*.xsa
+*.mcs
+*.prm
+*.ltx
+*.dcp
+*.pdi
+*.xpe
+*.html.jou
+*.html.log
+webtalk*.xml
+usage_statistics_webtalk.*
+hs_err_pid*.log
+replay_pid*.log
+
+# Vitis workspace is reproducible from software/ and scripts/.
+/vitis_workspace/
+.vitis/
+**/.metadata/
+**/build/
+**/Debug/
+**/Release/
+**/export/
+*.elf
+*.o
+*.obj
+*.a
+*.map
+*.exe
+*.dll
+*.so
+/BOOT.bin
+/migration/**/BOOT.bin
+/ps7_init*
+/migration/**/hardware/ps7_init*
+
+# Local backups / verification output (retain the authored migration MD/Tcl)
+/migration/**/baseline/
+/migration/**/evidence/
+/tests/out/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ch9141_settings.json
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+# Local credentials/settings; keep checked-in templates available.
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Editor / OS caches; retain shared VS Code settings
+.vscode/.ropeproject/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Source-only GitHub publication: local contest bundles and tool downloads.
+/submission/
+/submission_tools/
+/github_publish/
+/build_submission/
+*.rar
+*.zip
+*.7z
+*.tar
+*.gz
+/migration/**/*.bin

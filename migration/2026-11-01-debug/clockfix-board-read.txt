@@ -1,0 +1,26 @@
+F800025C:   00000001
+
+F8000100:   0001A008
+
+F8000104:   00015008
+
+F8000108:   00020008
+
+F8000154:   00001003
+
+E0000000:   00000114
+
+E0000018:   0000007C
+
+E000002C:   0000000D
+
+E0000034:   00000006
+
+clockfix_flash_header READ_OK
+clockfix_flash_app READ_OK
+clockfix_ddr1 READ_OK
+clockfix_ddr2 READ_OK
+  1* APU
+     2  ARM Cortex-A9 MPCore #0 (Running)
+     3  ARM Cortex-A9 MPCore #1 (Running)
+  4  xc7z020

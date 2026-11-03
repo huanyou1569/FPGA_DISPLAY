@@ -1,0 +1,44 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.89465",
+   "Default View_TopLeft":"-136,-210",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:24.0
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -50 -y -90 -defaultsOSRD
+preplace port port-id_p_b1 -pg 1 -lvl 3 -x 690 -y -140 -defaultsOSRD
+preplace port port-id_p_b2 -pg 1 -lvl 3 -x 690 -y 70 -defaultsOSRD
+preplace port port-id_p_clk -pg 1 -lvl 3 -x 690 -y -200 -defaultsOSRD
+preplace port port-id_p_g1 -pg 1 -lvl 3 -x 690 -y -230 -defaultsOSRD
+preplace port port-id_p_g2 -pg 1 -lvl 3 -x 690 -y 40 -defaultsOSRD
+preplace port port-id_p_lat -pg 1 -lvl 3 -x 690 -y -170 -defaultsOSRD
+preplace port port-id_p_oe -pg 1 -lvl 3 -x 690 -y -290 -defaultsOSRD
+preplace port port-id_p_r1 -pg 1 -lvl 3 -x 690 -y -110 -defaultsOSRD
+preplace port port-id_p_r2 -pg 1 -lvl 3 -x 690 -y 10 -defaultsOSRD
+preplace port port-id_sensor -pg 1 -lvl 0 -x -50 -y -20 -defaultsOSRD
+preplace portBus btn -pg 1 -lvl 0 -x -50 -y 10 -defaultsOSRD
+preplace portBus led -pg 1 -lvl 3 -x 690 -y -260 -defaultsOSRD
+preplace portBus p_addr -pg 1 -lvl 3 -x 690 -y -80 -defaultsOSRD
+preplace portBus sw -pg 1 -lvl 0 -x -50 -y -60 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 460 -y -50 -defaultsOSRD
+preplace inst test_panel_0 -pg 1 -lvl 1 -x 100 -y -50 -defaultsOSRD
+preplace netloc btn_0_1 1 0 1 -30 -40n
+preplace netloc clk_0_1 1 0 1 -30J -90n
+preplace netloc test_panel_0_led 1 1 2 220J -260 NJ
+preplace netloc test_panel_0_p_addr 1 1 2 270J -130 610J
+preplace netloc test_panel_0_p_b1 1 1 2 280J -140 NJ
+preplace netloc test_panel_0_p_b2 1 1 2 220J 70 NJ
+preplace netloc test_panel_0_p_clk 1 1 2 230J -200 NJ
+preplace netloc test_panel_0_p_g1 1 1 2 250J -230 NJ
+preplace netloc test_panel_0_p_g2 1 1 2 290J 40 NJ
+preplace netloc test_panel_0_p_lat 1 1 2 240J -170 NJ
+preplace netloc test_panel_0_p_oe 1 1 2 260J -160 610J
+preplace netloc test_panel_0_p_r1 1 1 2 290J -120 600J
+preplace netloc test_panel_0_p_r2 1 1 2 220J 20 610J
+preplace netloc sensor_0_1 1 0 1 N -20
+preplace netloc sw_0_1 1 0 1 NJ -60
+levelinfo -pg 1 -50 100 460 690
+pagesize -pg 1 -db -bbox -sgen -170 -310 830 320
+"
+}
+

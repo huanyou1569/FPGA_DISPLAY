@@ -1,0 +1,8 @@
+F800025C:   00000001
+
+E000D0A0:   8000016B
+
+0x40000000 ERROR Memory read error at 0x40000000. AP transaction timeout
+0x40000004 ERROR Memory read error at 0x40000004. AHB AP transaction error, DAP status 0xF0000021
+0x40000008 ERROR Memory read error at 0x40000008. AHB AP transaction error, DAP status 0xF0000021
+0x40000024 ERROR Memory read error at 0x40000024. AHB AP transaction error, DAP status 0xF0000021

@@ -1,0 +1,10 @@
+F800025C:   00000001
+
+cold_flash_header READ_OK
+cold_flash_app READ_OK
+cold_ddr1 READ_OK
+cold_ddr2 READ_OK
+  1* APU
+     2  ARM Cortex-A9 MPCore #0 (Running)
+     3  ARM Cortex-A9 MPCore #1 (Running)
+  4  xc7z020

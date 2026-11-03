@@ -1,0 +1,4 @@
+ddr1 ERROR Memory read error at 0x100000. AHB AP transaction error, DAP status 0xF0000021
+ddr2 ERROR Memory read error at 0x100000. AHB AP transaction error, DAP status 0xF0000021
+flash_header ERROR Memory read error at 0xFC000000. AHB AP transaction error, DAP status 0xF0000021
+flash_app ERROR Memory read error at 0xFC3FC940. AHB AP transaction error, DAP status 0xF0000021
